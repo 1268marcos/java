@@ -3,7 +3,6 @@ package aovivo15abril2020;
 import  java.util.Scanner;
 import  java.text.DecimalFormat;
 
-
 public class CalculaRaizes {
 	
 	public static void main(String[] args) {
@@ -30,34 +29,21 @@ public class CalculaRaizes {
 	    	System.out.println("O valor calculado de delta  "  + delta  );
 	    	
 	    	if( delta < 0 ) {
-	    		System.out.println("Não existe raíz real");
+	    		System.out.println("NÃ£o existe raÃ­z real");
 	    	} else {
 	    		double x1 = ( ( b * -1) + Math.sqrt(delta) ) / ( 2 * a);
 	    		double x2 = ( ( b * -1) - Math.sqrt(delta) ) / ( 2 * a);
 	    		
 	    		DecimalFormat df  = new DecimalFormat("0.000");
 	    		
-	    		System.out.println(" 1ª raiz "  + df.format(x1)  );
+	    		System.out.println(" 1Âª raiz "  + df.format(x1)  );
 	    		
-	    		System.out.println(" 2ª raiz "  + df.format(x2) );
+	    		System.out.println(" 2Âª raiz "  + df.format(x2) );
 	    		
 	    	}
-	    	
-			
+	    				
 		} catch (Exception e) {
 			System.out.println(  "Falha: "   +  e.getMessage());
-		}
-		
-		
-		
+		}		
 	}	
-
 }
-
-
-
-
-
-
-
-
