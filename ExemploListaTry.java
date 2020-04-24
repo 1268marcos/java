@@ -25,14 +25,12 @@ public class ExemploListaTry {
 				System.out.println(  numeros.get(i) );
 				soma = soma + numeros.get(i);
 			}
-			System.out.println("A soma de valores é " + soma);
+			System.out.println("A soma de valores Ã© " + soma);
 			
 		} catch (Exception e) {
 			System.out.println("Falha \n" + e.getMessage() );
-		}
+		}	
 		
-		
-	}
-	
+	}	
 
 }
