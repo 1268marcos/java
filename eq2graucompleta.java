@@ -3,7 +3,6 @@ package aovivo15abril2020;
 import  java.util.Scanner;
 import  java.text.DecimalFormat;
 
-
 public class CalculaRaizes {
 	
 	public static void main(String[] args) {
@@ -42,22 +41,9 @@ public class CalculaRaizes {
 	    		System.out.println(" 2ª raiz "  + df.format(x2) );
 	    		
 	    	}
-	    	
-			
+	    				
 		} catch (Exception e) {
 			System.out.println(  "Falha: "   +  e.getMessage());
-		}
-		
-		
-		
+		}				
 	}	
-
 }
-
-
-
-
-
-
-
-
