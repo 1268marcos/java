@@ -33,7 +33,7 @@ public class Calculadora {
 				mensagem = "Baixo peso para a sua idade";
 			} else {
 				mensagem = "Peso adequado";
-			}
+			}	
 			
 		} else {
 			
@@ -50,13 +50,9 @@ public class Calculadora {
 			} else {
 				mensagem = "Obesidade de Classe 3";
 			}
-			
 		}
 		
 		System.out.println("Para a sua idade a classificação é: " + mensagem);
-				
 		//https://www.minhavida.com.br/alimentacao/tudo-sobre/32159-imc
-		
 	}
-	
 }
