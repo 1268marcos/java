@@ -1,3 +1,5 @@
+//seq-junho-006
+
 package aovivo10junho2020lanchonete;
 
 import java.util.Scanner;
