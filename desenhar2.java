@@ -1,3 +1,5 @@
+//seq-Junho-016
+
 package zaovivo24junho2020triangulo;
 
 public class ContruindoTriangulo {
